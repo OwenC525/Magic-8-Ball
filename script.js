@@ -58,6 +58,8 @@ function shakeMagic8Ball(){
             image = "definitely-image.jpg"
             color = "text-danger";
             break;
+            default:
+                break;
     }
 
 
