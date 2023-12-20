@@ -17,45 +17,45 @@ function shakeMagic8Ball(){
     switch (randomNumber) {
         case 0:
             answer = "Yes";
-            image = "yes-image.jpg"; //change this!//
+            image = "images/yes-image.jpg"; //change this!//
             color = "text-success";
             break;
         case 1:
             answer = "No";
-            image = "no-image.jpg"; //change this!//
+            image = "images/no-image.jpg"; //change this!//
             color = "text-danger";
         case 2:
             answer = "Maybe";
-            image = "maybe-image.jpg"; //change this//
+            image = "images/maybe-image.jpg"; //change this//
             color = "text-warning";
             break;
         case 3:
             answer = "Of Course";
-            image = "ofcouse-image.jpg"; //change//
+            image = "images/yes-image.jpg"; //change//
             color = "text-success";
             break;
         case 4:
             answer = "Definitely";
-            image = "definitely-image.jpg"
+            image = "images/yes-image.jpg"
             color = "text-danger";
             break;
         case 5:
             answer = "No";
-            image = "no-image.jpg"; //change this!//
+            image = "images/no-image.jpg"; //change this!//
             color = "text-danger";
         case 6:
             answer = "Maybe";
-            image = "maybe-image.jpg"; //change this//
+            image = "images/maybe-image.jpg"; //change this//
             color = "text-warning"
             break;
         case 7:
-            answer = "Of Course";
-            image = "ofcouse-image.jpg"; //change//
-            color = "text-success";
+            answer = "Don't think so";
+            image = "images/no-image.jpg"; //change//
+            color = "text-danger";
             break;
         case 8:
             answer = "Definitely";
-            image = "definitely-image.jpg"
+            image = "images/yes-image.jpg"
             color = "text-danger";
             break;
             default:
